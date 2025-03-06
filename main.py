@@ -986,7 +986,7 @@ async def txt_handler(bot: Client, m: Message):
     except Exception:
             res = "UN"
     
-    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 𝐀𝐍𝐊𝐈𝐓 𝐒𝐇𝐀𝐊𝐘𝐀™👨🏻‍💻**")
+    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : HR**")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -1098,8 +1098,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n Title: {name1} @Ankit_Shakya72 {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐀𝐍𝐊𝐈𝐓❤️✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n Title: {name1} @Ankit_Shakya72.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐀𝐍𝐊𝐈𝐓❤️✦━━━━━**'
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n Title: {name1} @codewithyo {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**𝚈𝚊𝚝𝚒𝚗 𝙶𝚘𝚢𝚊𝚕**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n Title: {name1} @codewithyo.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**𝚈𝚊𝚝𝚒𝚗 𝙶𝚘𝚢𝚊𝚕**'
                     
                 
                 if "drive" in url:
@@ -1161,7 +1161,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue                       
                           
                 else:
-                    Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📄 Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ ᴀɴᴋɪᴛ sʜᴀᴋʏᴀ"
+                    Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📄 Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 𝚈𝚊𝚝𝚒𝚗 𝙶𝚘𝚢𝚊𝚕"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -1189,7 +1189,7 @@ async def txt_handler(bot: Client, m: Message):
     x = await input.download()
     await input.delete(True)
     file_name, ext = os.path.splitext(os.path.basename(x))
-    credit = f"𝐀𝐍𝐊𝐈𝐓 𝐒𝐇𝐀𝐊𝐘𝐀™🇮🇳"
+    credit = f"𝚈𝚊𝚝𝚒𝚗 𝙶𝚘𝚢𝚊𝚕"
     try:    
         with open(x, "r") as f:
             content = f.read()
@@ -1333,8 +1333,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} @Ankit_Shakya72 {res}.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐀𝐍𝐊𝐈𝐓❤️✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} @Ankit_Shakya72.pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐀𝐍𝐊𝐈𝐓❤️✦━━━━━**'
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} @codewithyo {res}.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**𝚈𝚊𝚝𝚒𝚗 𝙶𝚘𝚢𝚊𝚕**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} @codewithyo.pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**𝚈𝚊𝚝𝚒𝚗 𝙶𝚘𝚢𝚊𝚕**'
                     
                 
                 if "drive" in url:
@@ -1396,7 +1396,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue                       
                           
                 else:
-                    Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📄 Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ ᴀɴᴋɪᴛ sʜᴀᴋʏᴀ"
+                    Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📄 Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 𝚈𝚊𝚝𝚒𝚗 𝙶𝚘𝚢𝚊𝚕"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
