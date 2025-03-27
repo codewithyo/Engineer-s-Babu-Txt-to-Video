@@ -36,7 +36,7 @@ bot = Client(
 
 my_name = "𝕮𝖔𝖉𝖊 𝖜𝖎𝖙𝖍 𝖞𝖔✍"
 
-centered_text = "◦•●◉✿ 𝕮𝖔𝖉𝖊 𝖜𝖎𝖙𝖍 𝖞𝖔✍ ✿◉●•◦".center(40)
+centered_text = "YATIN GOYAL ".center(40)
 
 cookies_file_path = os.getenv("COOKIES_FILE_PATH", "youtube_cookies.txt")
 
@@ -363,8 +363,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} {my_name} {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦{centered_text}✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} {my_name}.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦{centered_text}✦━━━━━**'
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} {my_name} {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━✦{centered_text}✦━**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} {my_name}.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━✦{centered_text}✦━**'
                     
                 
                 if "drive" in url:
